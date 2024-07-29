@@ -292,3 +292,15 @@ form .btn2{
     margin-top: -30px;
     display: block;
 }
+.cer_a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+    color: #ababab ;
+    display: inline-block;
+    transition: transform 0.5s; 
+}
+.cer_a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
