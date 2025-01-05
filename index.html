@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eazdan Mostafa Rafin Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="https://rafineazdan.github.io/Portfolio/"
+            ><img src="images/logo_new.png" class="logo" alt=""
+          /></a>
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Undergraduate Student</p>
+          <h1>
+            Hi, I'm Eazdan Mostafa <br />
+            <span>Rafin</span> from Bangladesh
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------about--------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/phone-bg.png" alt="User" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              A career-oriented undergraduate student, who is ready to face
+              challenging tasks, always eager to learn new things and enrich
+              intra-personal skills.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('exp')">Experience</p>
+              <p class="tab-links" onclick="opentab('edu')">Education</p>
+              <p class="tab-links" onclick="opentab('cer')">
+                Skill Certificates
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Competitive Programming</span><br />C++</li>
+                <li>
+                  <span>Web Development</span><br />MERN Stack, FastAPI, Python
+                </li>
+                <li>
+                  <span>App Development</span><br />Python (Tkinter), React
+                  Native
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="exp">
+              <ul>
+                <li><span>RoboAdda</span><br />HR-Assistant Intern</li>
+                <li><span>Panjeree Publications</span><br />Writer</li>
+                <li><span>Udvash</span><br />QnA Teacher & Script Evaluator</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="edu">
+              <ul>
+                <li>
+                  <span>BSc<br />2022-Current</span><br />Rajshahi University of
+                  Engineering and Technology, Rajshahi
+                </li>
+                <li>
+                  <span>HSC <br />2020</span><br />Notre Dame College, Dhaka
+                </li>
+                <li>
+                  <span>SSC <br />2018</span><br />Birshreshtha Noor Mohammad
+                  Public College, Dhaka
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="cer">
+              <ul>
+                <li>
+                  <span
+                    >Python for Data Analysis: Pandas & NumPy<br /><a
+                      class="cer_a"
+                      href="https://www.coursera.org/account/accomplishments/records/9S27UPVGBP5V"
+                      >Credential
+                      <i
+                        class="fa-solid fa-up-right-from-square"
+                      ></i> </a></span
+                  ><br />Coursera
+                </li>
+                <li>
+                  <span
+                    >Supervised Machine Learning: Regression and
+                    Classification<br /><a
+                      class="cer_a"
+                      href="https://www.coursera.org/account/accomplishments/verify/DD7TASK9F4WG"
+                      >Credential
+                      <i
+                        class="fa-solid fa-up-right-from-square"
+                      ></i> </a></span
+                  ><br />Coursera
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------portfolio----------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">Portfolio</h1>
+        <div class="worklist">
+          <!-- Project 1 -->
+          <div class="work">
+            <img src="images/work-1.png" alt="Screenshot of Music Player App" />
+            <div class="layer">
+              <h2>Music Player App</h2>
+              <h3>Technology Stack:</h3>
+              <ul>
+                <li>Python (Tkinter)</li>
+              </ul>
+              <p>This app can play any music of your choice.</p>
+              <a
+                href="https://github.com/RafinEazdan/Music-Player-Python-Tkinter-"
+                target="_blank"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="work">
+            <img
+              src="images/WanderLust.png"
+              alt="Screenshot of WanderLust project"
+            />
+            <div class="layer">
+              <h2>WanderLust</h2>
+              <h3>Technology Stack:</h3>
+              <ul>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+              </ul>
+              <p>A travel companion app to explore destinations.</p>
+              <a
+                href="https://github.com/RafinEazdan/WanderLust"
+                target="_blank"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Project - 3 -->
+          <div class="work">
+            <img
+              src="images/fastAPI.png"
+              alt="Screenshot of WanderLust project"
+            />
+            <div class="layer">
+              <h2>ToDo List Backend</h2>
+              <h3>Technology Stack:</h3>
+              <ul>
+                <li>FastAPI</li>
+                <li>MongoDB</li>
+              </ul>
+              <p>A daily life recorder</p>
+              <a
+                href="https://github.com/RafinEazdan/FastApi_MongoDB"
+                target="_blank"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Project - 4 -->
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- ---------------contact------------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <br />
+            <i class="fa-regular fa-paper-plane"></i> eazdan.rafin@gmail.com
+            <br />
+            <br />
+            <i class="fa-solid fa-square-phone"></i> +8801316985612
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/eazdan-mostafa-rafin/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="cv.pdf" download class="btnDwnld">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btnsubmit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Eazdan Mostafa Rafin</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxvJxyLor5dS4ga7V3I0IoSAbVo_5tlaQ3tsRS_bq247dYff7OIzla-7OXRyZc2zgIciQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = alert("Your Message is sent Successfully!");
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
