@@ -76,7 +76,7 @@ nav ul li a:hover::after {
   margin-top: 20px;
 }
 .header-text h1 span {
-  color: #F5A623;
+  color: #f5a623;
 }
 
 /*----------------------- about -------------------------------------*/
@@ -435,4 +435,12 @@ form .btn2 {
 }
 .btnsubmit:hover {
   background: #ff004f;
+}
+
+.mailAddress{
+  text-decoration: none;
+  color: #fff;
+}
+.mailAddress:hover{
+  color: #ff004f;
 }
